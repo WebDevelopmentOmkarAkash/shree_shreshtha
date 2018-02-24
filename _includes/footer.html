@@ -1,0 +1,74 @@
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="{{ "public/js/jquery.min.js" | relative_url }}"></script>
+<script src="{{ "public/js/bootstrap.min.js" | relative_url }}"></script>
+<script src="{{ "public/js/custom.js" | relative_url }}"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage'], #home a[href='#python']").on('click', function(event) {
+
+       // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        // Store hash
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+
+          // Add hash (#) to URL when done scrolling (default click behavior)
+          window.location.hash = hash;
+          });
+        } // End if
+      });
+    })
+
+    $(document).ready(function() {
+        $("body").click(function(event) {
+                // only do this if navigation is visible, otherwise you see jump in navigation while collapse() is called
+                 if ($(".navbar-collapse").is(":visible") && $(".navbar-toggle").is(":visible") ) {
+                    $('.navbar-collapse').collapse('toggle');
+                }
+          });
+    });
+
+    $(window).scroll(function() {
+      $(".slideanim").each(function(){
+        var pos = $(this).offset().top;
+
+        var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+      });
+    });
+
+    $(document).ready(function(){
+       var scroll_start = 0;
+       var startchange = $('#check');
+       var offset = startchange.offset();
+        if (startchange.length){
+           $(document).scroll(function() {
+              scroll_start = $(this).scrollTop();
+              if(scroll_start > offset.top) {
+                  $(".navbar-default").css('background-color', '#f0f0f0');
+                  $(".navbar-default .navbar-nav li a").css('color', 'black');
+                  $(".navbar-default .navbar-brand").css('color', 'black');
+                  $(".navbar-default").css('text-shadow', '1px 1px white');
+               } else {
+                  $('.navbar-default').css('background-color', 'transparent');
+                  $('.navbar-default .navbar-nav li a').css('color', 'white');
+                  $(".navbar-default .navbar-brand").css('color', 'white');
+                  $(".collapsed").css('color', 'black');
+                  $(".navbar-default").css('text-shadow', '1px 1px black');
+               }
+           });
+        }
+    });
+</script>
