@@ -1,7 +1,7 @@
 ---
 layout: default
 title: About
-permalink: {{ site.baseurl }}about/
+permalink: /about/
 ---
 
 <div class="section" style="line-height: 1.8;">

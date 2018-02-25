@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Contact Us
-permalink: {{ site.baseurl }}contact/
+permalink: /contact/
 ---
 
 <div class="section">
