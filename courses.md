@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Courses
-permalink: /courses/
+permalink: {{ site.baseurl }}courses/
 ---
 
 <div class="section">
