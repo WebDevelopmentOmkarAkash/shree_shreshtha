@@ -1,26 +1,28 @@
 ---
 layout: default
 title: About
-permalink: {{ site.baseurl }}about/
+permalink: /about/
 ---
 
 <div class="section" style="line-height: 1.8;">
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p style="font-size: 30px; text-shadow: 1px 1px black;">LET THE RESULTS SPEAK..</p>
-                <hr style="width:50px; border-top: 2px solid #316ac6;" align="left">
+                <p style="font-size: 30px; text-shadow: 1px 1px black; color: #ff4433">
+                    LET THE RESULTS SPEAK..
+                </p>
+                <hr style="width:50px; " align="left">
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <ul style="font-size: 20px" class="fa-ul">
                     <li>
-                        <i class="fa-li fa fa-pencil"></i>More than 14 students have been selected in the JEE Main Exams & 8 in NEET out of 40 Students from our first batch.
+                        <i class="fa-li fa fa-pencil"></i>So far 250+ students in IIT and 100+ students in medical by our esteemed faculties
                     </li>
                     <li>
-                        <i class="fa-li fa fa-pencil"></i>This shows marked performance by the students.
+                        <i class="fa-li fa fa-pencil"></i>More than 14 students have been selected in the JEE Main Exams & 8 in NEET out of 40 Students from our first batch from Sinhgad Road
                     </li>
                     <li>
-                        <i class="fa-li fa fa-pencil"></i>Obviously the role of the extremely qualified, experienced faculties, given top results since last 22 years
+                        <i class="fa-li fa fa-pencil"></i>This shows marked performance by the students. Obviously the role of the extremely qualified, experienced faculties, given top results since last 22 years
                     </li>
                 </ul>
             </div>
@@ -32,8 +34,10 @@ permalink: {{ site.baseurl }}about/
     <div class="container">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                <p style="font-size: 30px; text-shadow: 1px 1px black;">WHAT MAKES US STAND APART</p>
-                <hr style="width:50px; border-top: 2px solid #316ac6;" align="left">
+                <p style="font-size: 30px; text-shadow: 1px 1px black; color: #ff4433">
+                    WHAT MAKES US STAND APART
+                </p>
+                <hr style="width:50px;" align="left">
             </div>
             <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
                 <ul style="font-size: 20px" class="fa-ul">
@@ -44,7 +48,7 @@ permalink: {{ site.baseurl }}about/
                         <i class="fa-li fa fa-pencil"></i>We also provide additional features like soft skills, communication skills for the overall development of the students
                     </li>
                     <li>
-                        <i class="fa-li fa fa-pencil"></i>In addition to the regular studies we provide the special SST formula group 4
+                        <i class="fa-li fa fa-pencil"></i>In addition to the regular studies we provide the special SST formula group <b>Four</b>
                     </li>
                 </ul>
             </div>
@@ -57,7 +61,7 @@ permalink: {{ site.baseurl }}about/
         <div class="row slideanim" style="margin-bottom: 2%">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
             <h1>WHAT WE PROVIDE</h1>
-            <hr style="max-width:50px; border-top: 2px solid #316ac6;">
+            <hr style="max-width:50px;">
           </div>
         </div>
         <div class="row text-center slideanim">

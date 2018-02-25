@@ -9,7 +9,7 @@ permalink: /contact/
     <div class="row" style="margin-bottom: 2%">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
         <h1>CONTACT US</h1>
-        <hr style="max-width:50px; border-top: 2px solid #316ac6;">
+        <hr style="max-width:50px;">
       </div>
     </div>
 

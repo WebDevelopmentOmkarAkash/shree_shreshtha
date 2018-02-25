@@ -1,3 +1,30 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- {{ site.time | date: '%Y' }}. All rights reserved. -->
+    <ul class="nav navbar-nav" style="font-size: 30px;">
+      <li class="social">
+          <a href="https://twitter.com/{{ site.twitter_username }}">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </li>
+        <li class="social">
+          <a href="https://www.facebook.com/{{ site.facebook_username }}">
+            <i class="fa fa-facebook"></i>
+          </a>
+        </li>
+        <li class="social">
+          <a href="https://www.instagram.com/{{ site.instagram_username }}">
+            <i class="fa fa-instagram"></i>
+          </a>
+        </li>
+    </ul>
+
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Shree Shrestha Tutorials</a></li>
+      </ul>
+  </div>
+</nav>
+
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 <script src="{{ "public/js/jquery.min.js" | relative_url }}"></script>
 <script src="{{ "public/js/bootstrap.min.js" | relative_url }}"></script>
@@ -63,10 +90,10 @@
                   $(".navbar-default").css('text-shadow', '1px 1px white');
                } else {
                   $('.navbar-default').css('background-color', 'transparent');
-                  $('.navbar-default .navbar-nav li a').css('color', 'white');
-                  $(".navbar-default .navbar-brand").css('color', 'white');
+                  $('.navbar-default .navbar-nav li a').css('color', '#ff4433');
+                  $(".navbar-default .navbar-brand").css('color', '#ff4433');
                   $(".collapsed").css('color', 'black');
-                  $(".navbar-default").css('text-shadow', '1px 1px black');
+                  $(".navbar-default").css('text-shadow', '1px 1px white');
                }
            });
         }

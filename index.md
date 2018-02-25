@@ -3,12 +3,45 @@ layout: default
 title: Home
 ---
 
-<div class="section">
+<div id="Carousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+    <li data-target="#Carousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="{{ "public/images/header.jpg" | relative_url }}" alt="">
+      <div class="carousel-caption">
+        <h2>With Proud Student (IIT Ranker)</h2>
+        <h2>Krishna Jaju</h2>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="{{ "public/images/header.jpg" | relative_url }}" alt="">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#Carousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#Carousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="section" style="background-color: white;">
   <div class="container">
     <div class="row slideanim" style="margin-bottom: 2%">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
         <h1>WHAT WE ARE BEST IN</h1>
-        <hr style="max-width:50px; border-top: 2px solid #316ac6;">
+        <hr style="max-width:50px;">
       </div>
     </div>
 
@@ -20,7 +53,7 @@ title: Home
             <div class="caption text-center caption-title">
               <p>COUNSELLING</p>
             </div>
-            <div class="caption text-center" style="background-color: #316ac6; color: white">
+            <div class="caption text-center" style="background-color: #ffd24d; color: black">
               <p>We hold regular counselling sessions with parents and students. These sessions are held from time to time during the course duration. These sessions help both students and parents to cope up with exam pressure.</p>
             </div>
           </div>
@@ -32,7 +65,7 @@ title: Home
             <div class="caption text-center caption-title">
               <p>PRE EXAM COUNSELLING</p>
             </div>
-            <div class="caption text-center" style="background-color: #316ac6; color: white">
+            <div class="caption text-center" style="background-color: #ffd24d; color: black">
               <p>We provide proper guidance and counselling to students who find it difficult to achieve desired results in the class tests. We help the students to make optimum use of their time prior to their exams.</p>
             </div>
           </div>
@@ -44,7 +77,7 @@ title: Home
             <div class="caption text-center caption-title">
               <p>CAREER COUNSELLING</p>
             </div>
-            <div class="caption text-center" style="background-color: #316ac6; color: white">
+            <div class="caption text-center" style="background-color: #ffd24d; color: black">
               <p>We help the students chalk out a cohesive and comprehensive strategy for preparing for their exams. We evaluate them and proper guidance is provided for selected their future course/ college based on their results.</p>
             </div>
           </div>
@@ -54,11 +87,11 @@ title: Home
   </div>
 </div>
 
-<div class="container" id="toppers">
+<!-- <div class="container" id="toppers">
   <div class="row slideanim" style="margin-bottom: 2%">
     <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
       <h1>OUR TOPPERS</h1>
-      <hr style="max-width:50px; border-top: 2px solid #316ac6;">
+      <hr style="max-width:50px;">
     </div>
   </div>
 
@@ -109,14 +142,14 @@ title: Home
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="section">
   <div class="container">
     <div class="row slideanim" style="margin-bottom: 2%">
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
         <h1>FROM THE DESK OF DIRECTOR</h1>
-        <hr style="max-width:50px; border-top: 2px solid #316ac6;">
+        <hr style="max-width:50px;">
       </div>
     </div>
 
